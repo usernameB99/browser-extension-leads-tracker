@@ -44,3 +44,17 @@ li{
 a{
     color: #5f9341;
 }
+
+.delete-item-btn {
+    background: none;
+    color: black;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: inherit;
+    vertical-align: middle;
+}
+
+.delete-item-btn:hover {
+    color: red;
+}
