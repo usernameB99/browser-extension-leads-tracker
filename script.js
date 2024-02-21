@@ -28,9 +28,9 @@ function render(leads){
         if (leads[i].includes("http://") || leads[i].includes("https://")) {
             listItems += `<li>
                             <button class="delete-item-btn" id="${i}">
-                            <a href='${leads[i]}' target='_blank'>${leads[i]}</a>
                             <span class="material-symbols-outlined">delete</span>
                             </button>
+                            <a href='${leads[i]}' target='_blank'>${leads[i]}</a>
                           </li>`;
         } else {
             listItems += `<li>
