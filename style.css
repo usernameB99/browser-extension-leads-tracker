@@ -58,3 +58,28 @@ a{
 .delete-item-btn:hover {
     color: red;
 }
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1c1b22;
+        color: rgb(218, 216, 216);
+    }
+
+    .delete-item-btn {
+        color: #484854;
+    }
+
+    #input-el{
+        background: #484854;
+        color: rgb(218, 216, 216);
+    }
+
+    button {
+        color: #484854;
+    }
+
+    #delete-btn {
+        background: #484854;
+    }
+}
